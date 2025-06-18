@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:4000', // or 5000 if that's your backend port
+      '/api': 'https://project-ease-1.vercel.app/', // or 5000 if that's your backend port
     },
   },
 });
