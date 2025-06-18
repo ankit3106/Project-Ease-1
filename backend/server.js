@@ -60,7 +60,7 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:4000", // adjust if your frontend uses a different port
+    origin: "https://project-ease-1.vercel.app", // adjust if your frontend uses a different port
     methods: ["GET", "POST"],
   },
 });
