@@ -2,7 +2,7 @@
 import { io } from "socket.io-client";
 
 // Replace with your backend URL in production
-export const socket = io("http://localhost:4000", {
+export const socket = io("https://project-ease-1.vercel.app/", {
   transports: ["websocket"], // Optional: ensure compatibility
 });
 // Optional: Handle user joining a room
